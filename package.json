@@ -15,6 +15,7 @@
     "type": "git",
     "url": "https://github.com/Sun0fABeach/vue-phaser-vite.git"
   },
+  "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc --noEmit && vite build",
