@@ -58,7 +58,7 @@ You might want to expose some game state that lives inside of your Phaser code
 to your Vue components and vice versa, for example a highscore. Here are two
 ways you can achieve sharing state between the frameworks.
 
-* Import a Phaser <a href="https://photonstorm.github.io/phaser3-docs/Phaser.Events.EventEmitter.html" target="_blank">EventEmitter</a> instance in
+* Import a Phaser <a href="https://docs.phaser.io/api-documentation/class/events-eventemitter" target="_blank">EventEmitter</a> instance in
 both your Vue components and Phaser modules. Both sides can then listen to and
 emit events on that emitter.
 

@@ -18,7 +18,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vue-tsc --noEmit && vite build",
+    "build": "vue-tsc -b && vite build",
     "preview": "vite preview"
   },
   "dependencies": {
@@ -28,7 +28,8 @@
   "devDependencies": {
     "@types/node": "^22.13.5",
     "@vitejs/plugin-vue": "^5.2.1",
-    "typescript": "^5.7.3",
+    "@vue/tsconfig": "^0.7.0",
+    "typescript": "~5.7.2",
     "vite": "^6.2.0",
     "vue-tsc": "^2.2.4"
   }
