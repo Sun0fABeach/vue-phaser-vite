@@ -22,15 +22,15 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "phaser": "^3.88.2",
-    "vue": "^3.5.13"
+    "phaser": "^3.90.0",
+    "vue": "^3.5.17"
   },
   "devDependencies": {
-    "@types/node": "^22.13.5",
-    "@vitejs/plugin-vue": "^5.2.1",
+    "@types/node": "^24.1.0",
+    "@vitejs/plugin-vue": "^6.0.0",
     "@vue/tsconfig": "^0.7.0",
-    "typescript": "~5.7.2",
-    "vite": "^6.2.0",
-    "vue-tsc": "^2.2.4"
+    "typescript": "^5.8.3",
+    "vite": "^7.0.5",
+    "vue-tsc": "^3.0.3"
   }
 }
